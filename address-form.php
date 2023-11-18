@@ -34,7 +34,14 @@ session_start();
         echo "<option value='Laval'>Laval</option>";
         echo "<option value='Toronto'>Toronto</option>";
         echo "<option value='Quebec'>Quebec</option>";
+        echo "</select>";
+
+        echo "<label for='zipcode$i'>Zip Code:</label>";
+        echo "<input type='text' name='zipcode$i' id='zipcode$i' maxlength='6' required>";
+
+        echo "<br><br>";
     }
 ?>
+<input type="submit" value="Suivant">
 </body>
 </html>
