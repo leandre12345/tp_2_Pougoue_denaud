@@ -30,7 +30,10 @@ session_start();
 
         echo "<label for='city$i'>City:</label>";
         echo "<select name='city$i' id='city$i' required>";
-            echo "<option value='Montreal'>Montreal</option>";
+        echo "<option value='Montreal'>Montreal</option>";
+        echo "<option value='Laval'>Laval</option>";
+        echo "<option value='Toronto'>Toronto</option>";
+        echo "<option value='Quebec'>Quebec</option>";
     }
 ?>
 </body>
