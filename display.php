@@ -20,6 +20,11 @@ if (isset($_SESSION['addresses'])) {
         $city = $conn->real_escape_string($address['city']);
         $zipcode = $conn->real_escape_string($address['zipcode']);
         
+        $sql = "INSERT INTO addresses (street, street_nb, type, city, zipcode) VALUES ('$street', $street_nb, '$type', '$city', '$zipcode')";
+
+        if ($conn->query($sql) !== TRUE) {
+            echo "Erreur lors de l'insertion des données : " . $conn->error;
+        }
     }
-    # code...
+    
 }
