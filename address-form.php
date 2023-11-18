@@ -27,6 +27,8 @@ session_start();
         echo "<option value='facturation'>Facturation</option>";
         echo "<option value='autre'>Autre</option>";
         echo "</select>";
+        
+        echo "<label for='city$i'>City:</label>";
     }
 ?>
 </body>
