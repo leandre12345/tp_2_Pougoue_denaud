@@ -9,7 +9,7 @@ session_start();
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="process-addresses.php" method="post">
+    <form action="affichage.php" method="post">
         <h2>Saisissez vos adresses</h2>
         <?php
         for ($i = 1; $i <= $_SESSION['num_addresses']; $i++) {
