@@ -40,7 +40,7 @@ $conn->close();
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="display">
+    <div class="connection-bd">
         <h2>Informations d'adresse</h2>
         <?php
         if (isset($_SESSION['addresses'])) {
