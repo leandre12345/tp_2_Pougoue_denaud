@@ -44,7 +44,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-.display {
+.connection-bd {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -54,6 +54,6 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.display p {
+.connection-bd p {
     margin-bottom: 10px;
 }
