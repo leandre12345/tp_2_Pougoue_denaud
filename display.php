@@ -13,7 +13,7 @@ if($conn->connect_error){
 }
 // inserer les données dans la base de données
 if (isset($_SESSION['addresses'])) {
-    foreach ($_SESSION['addresses'] as $address) {
+    foreach ($_SESSION['addresses'] as $addresse) {
         $street = $conn->real_escape_string($address['street']);
         $street_nb = (int)$address['street_nb'];
         $type = $conn->real_escape_string($address['type']);
