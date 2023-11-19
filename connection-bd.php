@@ -2,10 +2,10 @@
 session_start();
 
 // Connexion à la base de données
-$servername = "votre_serveur";
-$username = "votre_nom_utilisateur";
-$password = "votre_mot_de_passe";
-$dbname = "votre_nom_de_base_de_donnees";
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "Tp_address";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
