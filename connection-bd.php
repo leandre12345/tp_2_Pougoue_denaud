@@ -7,9 +7,9 @@ $username = "root";
 $password = "root";
 $dbname = "Tp_address";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername,$username,$password,$dbname);
 
-if ($conn->connect_error) {
+if ($conn->connect_error){
     die("La connexion à la base de données a échoué : " . $conn->connect_error);
 }
 
@@ -40,7 +40,7 @@ $conn->close();
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="connection-bd">
+    <div class="display">
         <h2>Informations d'adresse</h2>
         <?php
         if (isset($_SESSION['addresses'])) {
