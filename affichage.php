@@ -20,8 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ];
     }
 
-    header("Location: connection.php");
+    header("Location: connection-bd.php");
     exit();
 }
 ?>
-
